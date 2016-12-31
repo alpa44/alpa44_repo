@@ -1,0 +1,20 @@
+ㅇ Github
+- Pull Request
+- Fork
+- Push
+- Fetch
+- Clone
+- Commit
+
+ㅇ github에 레파지토리 생성하기
+- new repository 생성	
+	echo "# alpa44_repo" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/alpa44/alpa44_repo.git
+	git push -u origin master
+
+- 이미 존재하는 레파지토리를 푸시하기
+	git remote add origin https://github.com/alpa44/alpa44_repo.git
+	git push -u origin master
