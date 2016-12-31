@@ -54,6 +54,8 @@ git checkout -- <파일이름> : 로컬 변경 내용 되돌리기
 git merge <브랜치>
 git rebase <브랜치> : merge와 병합은 동일하지만 병합 히스토리를 정리함
 
+git config --global core.editor /usr/bin/vim : editor 지정
+
 git diff <원래branch> <비고대상branch> 
 git tag : 태그 목록 조회
 git tag <name> : 꼬리표 달기
