@@ -18,3 +18,18 @@
 - 이미 존재하는 레파지토리를 푸시하기
 	git remote add origin https://github.com/alpa44/alpa44_repo.git
 	git push -u origin master
+
+ㅇ git 명령어
+git init : 저장소생성
+git add README.md : 인덱스(스테이지)에 파일 추가
+git commit -m "first commit" : HEAD에 반영
+git commit -a : 스테이지 추가와 커밋을 동시
+git remote add origin https://github.com/alpa44/alap44_repo.git
+git push -u origin master
+git clone 저장소경로 : 저장소 받아오기
+git checkout -b feature_x : 브랜치 생성
+git checkout master : 브랜치 변경
+git branch -d feature_x : 브랜치 삭제
+git merge feature_x : 브랜지 병합
+git pull : 로컬저장소를 원격 저장소에 맞춰 갱신
+git status : 작업 디렉토리 변경 사항 확인
