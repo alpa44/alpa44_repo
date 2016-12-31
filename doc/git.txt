@@ -33,3 +33,8 @@ git branch -d feature_x : 브랜치 삭제
 git merge feature_x : 브랜지 병합
 git pull : 로컬저장소를 원격 저장소에 맞춰 갱신
 git status : 작업 디렉토리 변경 사항 확인
+git diff <원래branch> <비고대상branch> 
+git tag 1.0.0 1b2e1d63ff : 꼬리표 달기
+git checkout -- <파일이름> : 로컬 변경 내용 되돌리기
+git reset HEAD : 스테이지 추가된 내역 취소
+git rebase <브랜치>
