@@ -4,3 +4,4 @@
 
 ㅇ vundle
 :PluginInstall => 플러그인설치
+:PluginClean => 플러그인제거(vimrc에서 플러그인삭제후실행
