@@ -1,0 +1,9 @@
+ㅇ install
+- http://www.oracle.com/technetwork/java/javase/downloads/index.html
+- java -version
+- /usr/libexec/java_home -V : 설치된 자바 확인(mac) 
+- /usr/libexec/java_home -v Java_version_code : 자바 버전 변경(mac)
+
+ㅇ 삭제
+- sudo rm -rf /Library/Java/JavaVirtualMachines/jdk-<version>.jdk
+

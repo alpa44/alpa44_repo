@@ -1,3 +1,30 @@
+ㅇ 키보드 단축키
+- spotlight : ctrl + space
+- 스크린캡처(전체) : command + shift + 3
+- 스크린캡처(부분) : command + shift + 4
+- 스크린캡처(window) : command + shift + 4, then space
+- 스크린캡처(클립보드) : command + shift + ctrl + (3 or 4), then space
+- mission control : F3 or 세손가락 위로 밀기
+
+
 ㅇ Terminal.app color theme
 - solarized
 - peppermint
+
+ㅇ Homebrew
+- 맥용 패키지 관리자
+- 설치 : /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- 전용 디렉토리에 패키지 설치하고 /usr/local에 심볼릭 링크
+- formula : 패키지
+- brew
+- brew -v : 버전 확인
+- brew install <패키지명> : 패키지 설치
+- brew search <패키지명> : 패키지 검색
+- brew info <패키지명> : 패키지정보
+- brew upgrade <패키지명> : 패키지 업그레이드
+- brew ls : 설치한 패키지(formula)목록
+- brew update : Homebrew 업데이트
+- brew doctor : 시스템에 문제가 있는지 호가인
+- brew outdated : 설치한 패키지 이후 버전이 나왔는지 확인
+- brew cleanup : 패키지의 모든 과거버전을 제거함
+- brew switch <패키지명> <버전> : 해당버전으로 변경(설치한 패키지가 여러 버전이 있을때)
