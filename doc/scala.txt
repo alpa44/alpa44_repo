@@ -1,0 +1,9 @@
+ㅇ Sites
+- https://www.scala-lang.org/
+
+ㅇ Higher order function
+- 아규먼트로 function을 받을수 있다
+- function을 리턴
+- 그외 function은 first-order functions이다
+
+ㅇ First-class function
