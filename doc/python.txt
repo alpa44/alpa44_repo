@@ -1,0 +1,7 @@
+
+ㅇ Installation
+- setup.py
+
+ㅇ Tools
+- Tox : tests in multiple virtualenvs
+  . http://tox.testrun.org

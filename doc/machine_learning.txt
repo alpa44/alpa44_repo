@@ -14,6 +14,10 @@
     - http://www.holehouse.org/mlclass/ (note)
 10. reddit : MachineLearning
 
+ㅇSites 
+- imagenet :  http://image-net.org/challenges/LSVRC/2014/index
+- mnist : http://yann.lecun.com/exdb/mnist/
+
 ㅇ Keyword
 - keras
 - 

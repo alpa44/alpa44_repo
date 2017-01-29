@@ -5,3 +5,8 @@
 ㅇ vundle
 :PluginInstall => 플러그인설치
 :PluginClean => 플러그인제거(vimrc에서 플러그인삭제후실행
+
+ㅇ column edit
+- ctrl + v (win : ctrl + p + v)
+- select columns
+- shift + i and key in and esc
