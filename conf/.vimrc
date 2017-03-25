@@ -10,10 +10,6 @@ Plugin 'The-NERD-tree'
 Plugin 'jellybeans.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlp.vim'
-Plugin 'vim-scripts/indentpython.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'nvie/vim-flake8'
-Plugin 'tpope/vim-fugitive'
 
 
 call vundle#end()
