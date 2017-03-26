@@ -4,3 +4,5 @@ export CLICOLOR=1
 #export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto'
 alias ls='ls -GFh'
+
+export PATH=$PATH:/usr/local/mysql/bin
