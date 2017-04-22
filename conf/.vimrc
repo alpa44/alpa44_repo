@@ -50,7 +50,7 @@ set cindent " C언어 자동인덴트
 set smartindent
 
 " 줄번호
-set number
+"set number
 
 " colorscheme
 colorscheme jellybeans
