@@ -65,3 +65,7 @@ git tag -d <name> : 태그 지우기
 - 로컬저장소에 commit한 파일 되돌리기
 	git fetch origin
 	git reset --hard origin/master
+
+ㅇ remote branch clone하기
+- git clone -b <branch> <remote_repo> <dir>
+- e.g> git clone -b develop https://alpa44@bitbucket.org/alpa44/astock.git astock-dev

@@ -10,3 +10,7 @@
 - ctrl + v (win : ctrl + p + v)
 - select columns
 - shift + i and key in and esc
+
+ㅇcopy할때 indent없애기
+- :set paste
+- :set nopaste
