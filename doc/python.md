@@ -1,34 +1,32 @@
+Python
+========
 
-ㅇ Installation
-- setup.py
-
-ㅇ Tools
-- Tox : tests in multiple virtualenvs
-  . http://tox.testrun.org
-
-
-###################################
 Source Code Encoding
-###################################
+--------
 
+```python
 # -*- coding: encoding -*-
 # -*- coding: cp-1252 -*-
+```
 
+```python
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+```
 
 
-###################################
 Numbers
-###################################
+--------
+```python
 17 / 3   # 5.666666666666667
 17 // 3  # 5
 17 % 3   # 2
 5 ** 2   # 25
+```
 
-###################################
 Strings
-###################################
+--------
+```python
 'spam eggs'
 "spam eggs"
 print('C:\some\name')
@@ -56,13 +54,16 @@ Usage: thingy [OPTIONS]
     -h                              Display this usage message
     -H hostname                     Hostname to connect to
 ''')
+```
 
-
-# string concatenation
+### string concatenation
+```python
 3 * 'un' + 'ium'   # unununium
 'Py' 'thon'     # Python
+```
 
-# string index & slicing
+### string index & slicing
+```python
 word = 'Python'
 word[0]         # 'P'
 word[5]         # 'n'
@@ -83,11 +84,11 @@ word[42:]       # ''
 
 # string length
 len('alpa44')   # 6
+```
 
-
-###################################
 Lists
-###################################
+--------
+```python
 squres = [1,4,9,16,25]
 
 # index & slice
@@ -128,24 +129,22 @@ x = [a, n]
 print(x)                            # [['a', 'b', 'c'], [1, 2, 3]]
 x[0]                                # ['a', 'b', 'c']
 x[0][1]                             # 'b'
+```
 
-
-
-
-###################################
 Multiple Assignment
-###################################
+--------
 
+```python
 #fibonacci series
 a, b = 0, 1
 while b < 10:
     print(b)
     a, b = b, a+b
+```
 
-
-###################################
 print
-###################################
+--------
+```python
 i = 256*256
 print('The value of i is', i)       #  The value of i is 65536
 
@@ -156,11 +155,12 @@ while b < 1000:
     a, b = b, a+b
 
 >>> 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
+```
 
-###################################
 if statements
-###################################
+--------
 
+```python
 if x < 0:
     x = 0
 elif x == 0:
@@ -169,12 +169,13 @@ elif x == 1:
     print('Single')
 else:
     print('More')
+```
 
 
-###################################
 for statements
-###################################
+--------
 
+```python
 words = ['cat', 'window', 'defenestrate']
 for w in words:
     print(w, len(w))
@@ -258,12 +259,12 @@ class MyEmptyClass:
 
 def initlog(*args):
     pass
+```
 
-
-
-###################################
 enumerate
-###################################
+--------
+
+```python
 seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 list(enumerate(seasons))
 >>> [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
@@ -271,11 +272,12 @@ list(enumerate(seasons))
 
 list(enumerate(seasons, start=1))
 >>> [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+```
 
 
-###################################
 Functions
-###################################
+--------
+```python
 def fib(n):
     """Print a Fibonacci series up to n."""     # docstring
     a, b = 0, 1
@@ -302,9 +304,10 @@ f100 = fib2(100)
 print(f100)
 >>>
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+```
 
-
-# Default Argument Values
+### Default Argument Values
+```python
 def ask_ok(prompt, retries=4, reminder='Please try again!'):
     while True:
         ok = input(prompt)
@@ -332,9 +335,11 @@ print(f(2))
 >>> [1, 2]
 print(f(3))
 >>> [1, 2, 3]
+```
 
 
-# Keyword Arguments
+### Keyword Arguments
+```python
 def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
     print("-- This parrot wouldn't", action, end=' ')
     print("if you put", voltage, "volts through it.")
@@ -380,8 +385,10 @@ keywords =  {'shopkeeper': 'Michael Palin', 'client': 'John Cleese', 'sketch': '
 shopkeeper : Michael Palin
 client : John Cleese
 sketch : Cheese Shop Sketch
+```
 
-# Arbitrary Argument Lists
+### Arbitrary Argument Lists
+```python
 def write_multiple_items(file, separator, *args):
     file.write(separator.join(args))
 
@@ -392,8 +399,10 @@ concat("earth", "mars", "venus")
 >>> 'earch/mars/venus'
 concat("earth", "mars", "venus", sep=".")
 >>> 'earth.mars.venus'
+```
 
-# Unpacking Argument Lists
+### Unpacking Argument Lists
+```python
 list(range(3, 6))
 >>> [3, 4, 5]
 
@@ -408,9 +417,10 @@ def parrot(voltage, state='a stiff', action='voom'):
 
 d = {"voltage": "four million", "state": "bleedin' demised", "action":"VOOM"}
 parrot(**d)
+```
 
-
-# Lambda Expressions
+### Lambda Expressions
+```python
 def make_incrementor(n):
     return lambda x: x + n
 
@@ -422,8 +432,10 @@ pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
 pairs.sort(key=lambda pair: pair[1])
 pairs
 >>> [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+```
 
-# Documentation strings
+### Documentation strings
+```python
 def my_function():
     """Do nothing, but document it.
 
@@ -431,39 +443,27 @@ def my_function():
     """
     pass
 print(my_function.__doc__)
+```
 
-# Function Annotations
+### Function Annotations
+```python
 def f(ham: str, eggs: str = 'eggs') -> str:
     print("Annotations:", f.__annotations__)
     print("Arguments:", ham, eggs)
     return ham + ' and ' + eggs
 
 f('spam')
+```
 
-
-
-###################################
 Coding Style
-###################################
-## PEP8
-# 4-space indentation, and no tabs
-# Wrap lines so that they don't exceed 79 characters
-# When possible, put comments on a line of their own
-# Use docstrings
-# Use spaces around operators and after commas, 
-#     but not directly inside bracketing constructs : a = f(1, 2) + g(3, 4) 
-# CamelCase for classes and lower_case_with_underscores for functions and methods
+--------
+### PEP8
+* 4-space indentation, and no tabs
+* Wrap lines so that they don't exceed 79 characters
+* When possible, put comments on a line of their own
+* Use docstrings
+* Use spaces around operators and after commas, but not directly inside bracketing constructs : a = f(1, 2) + g(3, 4) 
+* CamelCase for classes and lower_case_with_underscores for functions and methods
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+virtualenv
+--------
