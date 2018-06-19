@@ -1,6 +1,18 @@
 Python
 ========
 
+Install python
+------
+### Mac
+#### python2
+```shell
+brew install python@2
+```
+#### python3
+```shell
+brew install python3
+```
+
 Source Code Encoding
 --------
 
@@ -465,5 +477,49 @@ Coding Style
 * Use spaces around operators and after commas, but not directly inside bracketing constructs : a = f(1, 2) + g(3, 4) 
 * CamelCase for classes and lower_case_with_underscores for functions and methods
 
-virtualenv
+Virtualenv
 --------
+* install
+```shell
+pip3 install virtualenv
+```
+
+Setuptools
+--------
+### easy_install
+
+Pip
+--------
+### for pyton2
+### for python3
+* install packages
+```shell
+pip3 install <package>
+```
+* update package
+```shell
+pip3 install --upgrade <package>
+pip3 install --upgrade pip setuptools wheel
+```
+
+Wheel
+--------
+
+
+Anaconda
+--------
+### Uninstall in Mac
+* Remove the configs
+```shell
+conda install anaconda-clean
+anaconda-clean --yes
+```
+* Delete the anaconda install folder
+```shell
+rm -rf ~/anaconda
+```
+* Delete backup of configs that is created by `anaconda-clean --yes`
+```shell
+rm -rf ~/.anaconda_backup
+```
+
