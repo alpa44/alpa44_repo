@@ -1,5 +1,24 @@
 # About AWS(Amazon Web Service)
 
+## AWS Management Console
+
+## EC2
+
+## Amazon Route 53
+
+## IAM (Identity and Access Management)
+- a web service that helps you securely control access to AWS resources.
+- control who is authenticated (signed in) and authorized (has permissions) to use resources
+- AWS account *root user* : signing in whith the email address and password
+
+## CloudFront
+## CloudWatch
+
+## Lambda
+
+## Amazon VPC(Virtual Private Cloud)
+
+
 ## AWS Storage Service
 
 ### Which AWS Cloud Storage Service Is Best
