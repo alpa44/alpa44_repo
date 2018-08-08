@@ -58,3 +58,30 @@ defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 ```
 
 ## Boxy Theme
+
+## setting configurations
+
+```
+{
+    "bold_folder_labels": true,
+    "fade_fold_buttons": false,
+    "font_size": 10,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "rulers":
+    [
+        80,
+        120
+    ],
+    "show_encoding": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": true
+}
+```
