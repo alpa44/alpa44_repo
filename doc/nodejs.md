@@ -1,5 +1,57 @@
 #About nodejs
 
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine
+
+## Versions of node
+- Current : 10.8.0
+- LTS : 8.11.3
+
+## nvm
+Node version manager
+
+### Installation
+- on MacOS
+
+```shell
+brew install nvm
+ 
+mkdir ~/.nvm
+
+add the following to ~/.bash_profile
+> export NVM_DIR=$HOME/.nvm
+> . /usr/local/opt/nvm/nvm.sh
+```
+
+### Usage
+- To download, compile, and install the latest release of node
+```
+nvm install node
+```
+
+- To use the installed version
+```
+nvm use node
+```
+
+- Run
+```
+nvm run node --version
+```
+
+- Run any arbitrary command in a subshell with the desired version of node
+```
+nvm exec 4.2 node --version
+```
+
+- Get the path to the executable to where it was installed
+```
+nvm which 5.0
+```
+
+### aliases
+- `node` : installs the latest version of node
+- `iojs` : installs the latest version of io.js
+
 
 ## nodemon
 A utility that will monitor for any changes in your source and automatically restart your server.
