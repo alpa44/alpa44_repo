@@ -25,7 +25,8 @@ add the following to ~/.bash_profile
 ### Usage
 - To download, compile, and install the latest release of node
 ```
-nvm install node
+nvm install node // the latest release of node
+nvm install v10.2.1 // the version 10.2.1 of node
 ```
 
 - To use the installed version
@@ -46,6 +47,11 @@ nvm exec 4.2 node --version
 - Get the path to the executable to where it was installed
 ```
 nvm which 5.0
+```
+
+- set default alias
+```
+nvm alias default v10.2.1
 ```
 
 ### aliases
