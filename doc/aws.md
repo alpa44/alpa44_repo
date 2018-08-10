@@ -4,6 +4,8 @@
 
 ## EC2
 
+### Connct to the instance using SSH
+
 ## Amazon Route 53
 
 ## IAM (Identity and Access Management)
