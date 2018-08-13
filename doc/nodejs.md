@@ -6,6 +6,27 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine
 - Current : 10.8.0
 - LTS : 8.11.3
 
+## npm
+```
+npm list --global
+```
+
+### Installing Packages in Local Mode
+```
+npm init
+npm install # install packages in package.json
+npm install <package>
+npm install <package> --save-dev
+npm install jshint --save-dev
+```
+
+### use as a build tool
+```
+npm run  # show script list
+npm run <property>  # run a specific property
+npm run <property> -s   # only ouput
+```
+
 ## nvm
 Node version manager
 

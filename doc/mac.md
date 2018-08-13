@@ -1,15 +1,13 @@
-About Mac
-========
+# About Mac
 
-Keyboard shortcuts
---------
-* spotlight : ctrl + space
-* screen capture
-** whole screen : command + shift + 3
-** part of screen : command + shift + 4
-** window : command + shift + 4, then space
-** clipboard : command + shift + ctrl + (3 or 4), then space
-* mission control : F3 or 세손가락 위로 밀기
+## Keyboard shortcuts
+- spotlight : ctrl + space
+- screen capture
+- whole screen : command + shift + 3
+- part of screen : command + shift + 4
+- window : command + shift + 4, then space
+- clipboard : command + shift + ctrl + (3 or 4), then space
+- mission control : F3 or 세손가락 위로 밀기
 
 
 Terminal app color theme
