@@ -1,0 +1,1 @@
+javac  -cp "D:\java\javalisb\ojdbc6.jar" -d . *.java
