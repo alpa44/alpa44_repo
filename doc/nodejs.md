@@ -146,3 +146,13 @@ pm2 delete
 - PaaS Compatible
 - Keymetrics monitoring
 - API
+
+## Books
+- Node.js 교과서 o
+- 웹 서비스를 만들며 배우는 node.js 프로그래밍
+- Do it! Node.js 프로그래밍 o
+- Node.js로 봇 만들기 o
+- 초보자를 위한 Node.js 200제 o
+- 자바스크립트로 서버와 클라이언트 구축하기
+- 모던 자바스크립트 입문
+- Node.js 마이크로서비스 코딩 공작소
