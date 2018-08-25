@@ -1,0 +1,14 @@
+{
+  "name": "web3_init",
+  "version": "1.0.0",
+  "main": "coinbase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "web3": "^1.0.0-beta.35"
+  }
+}
